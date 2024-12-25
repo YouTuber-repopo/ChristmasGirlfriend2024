@@ -1,0 +1,18 @@
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 90vh;
+    width: 60vw;
+    align-self: center;
+}
+
+#typingIndicator {
+    display: none;
+}
+
